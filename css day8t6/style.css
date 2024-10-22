@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-color: lightseagreen;
+   
+}
+@media  screen and (width >= 600px) {
+    div {
+       
+        box-shadow: 0px 5px 7px 3px black;
+    }
+    
+}
+@media  screen and (width < 600px) {
+    div {
+        background-color: lightseagreen;
+        
+    }
+    
+}

@@ -1,0 +1,16 @@
+button{
+    height: 200px;
+    width: 200px;
+}
+@media  screen and (Orientation:portrait){
+    button{
+        background-color: orange;
+    }
+    
+}
+@media  screen and (orientation:landscape) {
+    button{
+        background-color: teal ;
+    }
+    
+}

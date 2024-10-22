@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media  screen and(width < 500px) {
+    img{
+        width: 100%;
+    }
+  
+} 
+@media  screen  {
+    img{
+        width: 50%;
+    }
+    
+}
