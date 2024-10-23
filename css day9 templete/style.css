@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.container{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+
+}
+img{
+    width: 100%;
+    display: block;
+   
+}
+/* .text{
+    margin: 0px;
+    padding: 0px;
+} */
+@media  screen and ( width > 600px) {
+    .container{
+         flex-shrink: 1;
+         flex-wrap: 1;
+         flex-basis: 22%;
+    }
+  
+    
+}
