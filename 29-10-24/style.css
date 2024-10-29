@@ -1,0 +1,24 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+/* .ram{
+    padding: 10px;                    
+}
+.ram:hover{
+    cursor: pointer;
+    padding-left: 30px ;
+    padding-right: 30px;
+ 
+} */   
+button{
+   padding: 20px;
+   background-color: black;
+   color: white;
+}
+button:hover{
+    cursor: pointer;
+    padding-left: 50px ;
+    padding-right: 50px;
+}

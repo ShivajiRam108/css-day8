@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    font-size: 18px;
+}
+p{
+    padding: 20px;
+    font-size: 16px;
+}

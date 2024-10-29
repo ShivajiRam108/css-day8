@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.div a{
+    float: left;
+    text-decoration: none;
+    gap: 10px;
+    justify-content: end;
+    display: none;
+}
+.icon{
+    display: inline-block;
+    font-size: 2rem;
+}
+#chackbox.nav{
+        display: block;
+        gap: 10px;
+
+}
+.checkbox{
+     display: none;
+}
+
+@media  screen and (width > 600px) {
+    .div a{
+        display: block ;
+    }
+    
+}
